@@ -25,7 +25,7 @@
   {% endblock %}
 
   {% block corejs %}
-    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/af901081da.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -114,7 +114,8 @@
           aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+        {% include 'includes/mobile-top-header.html' %}
+        {% include 'includes/main-nav.html' %}
       </nav>
     </div>
     <div id="delivery-banner" class="row text-center">
